@@ -3,7 +3,7 @@ import { FaGithub ,FaLinkedin,FaInstagram,FaFacebook} from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import ShinyText from './library/Shine';
 import { motion } from 'framer-motion'
-import { Ripple } from './library/Ripple';
+
 
 const Footer = () => {
 return (

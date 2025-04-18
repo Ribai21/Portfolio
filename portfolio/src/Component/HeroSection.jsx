@@ -69,8 +69,8 @@ const HeroSection = () => {
       whileInView={{opacity:1,scale:1}}
       transition={{duration:2}}
       className="w-full lg:w-1/2 h-[90%] flex relative  justify-center items-center">
-        <FaHtml5 size={50} className="absolute left-[20%] text-[#00b8ff] opacity-10 animate-spinner top-10"/>
-        <FaReact size={50} className="absolute text-[#00b8ff] opacity-10 animate-pulse left-[10%] top-[60%]"/>
+        <FaHtml5 size={50} className="absolute left-[10%] top-[5%] md:left-[20%] text-[#00b8ff] opacity-10 animate-spinner md:top-10"/>
+        <FaReact size={50} className="absolute text-[#00b8ff] opacity-10 animate-pulse md:left-[10%] md:top-[60%] bottom-[40%] left-0"/>
         <FaNodeJs size={50} className="absolute text-[#00b8ff] opacity-10 animate-spinner right-[10%] top-[90%]"/>
         <FaCss3 size={50} className="absolute text-[#00b8ff] opacity-10 animate-pulse   right-[10%] top-[5%]"/>
         <img
