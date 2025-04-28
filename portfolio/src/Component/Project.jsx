@@ -47,7 +47,7 @@ const project=[
 
   return (
     <div className="relative my-5">
-      <div className="flex min-h-screen  p-3 flex-col " id="project">
+      <div className="flex  p-3 flex-col " id="project">
       <h1 className="text-3xl text-center font-lobster md:text-5xl text-[#00b8ff] mb-10">
         MY Projects</h1>
       <Swiper
@@ -78,8 +78,8 @@ const project=[
        </Swiper>
        <span className="text-[#F1F5F9] mx-auto text-xs">*drag to see more projects</span>
     </div>
-       <div className="w-96 h-96  bg-blue-500/20 blur-3xl absolute bottom-[70%] -right-8"></div>
-       <div className="w-96 h-96  bg-blue-500/20 blur-3xl absolute top-[70%] left-16"></div> 
+       <div className="w-96 h-96 -z-10  bg-blue-500/20 blur-3xl absolute bottom-[70%] -right-8"></div>
+       <div className="w-96 h-96 -z-10 md:block bg-blue-500/20 blur-3xl absolute top-[70%] left-16"></div> 
     </div>
   );
 };
