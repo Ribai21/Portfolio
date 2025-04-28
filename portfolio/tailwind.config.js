@@ -37,22 +37,23 @@ export default {
                 },
                 ping:{
                   '0%': {
-                    transform: 'scale(0.4)',
+                    transform: 'scale(0.3)',
                     opacity: 1,
                   },
                   '100%': {
-                    transform: 'scale(0.3)',
+                    transform: 'scale(0.2)',
                     opacity: 0,
                   },
                 }
-              
+                
     },},
     animation: {
       shine: 'shine 5s linear infinite',
       ripple: 'ripple 2s ease-in-out infinite',
       spinner: 'spinner 10s linear infinite',
       pulse: 'pulse 3s ease-in-out infinite',
-      ping: 'ping 5s ease-in-out infinite',
+      ping: 'ping 4s ease-in-out infinite'
+     
     },
     fontFamily:{
       stix:[ "STIX Two Text", "serif"],

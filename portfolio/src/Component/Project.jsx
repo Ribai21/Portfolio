@@ -46,7 +46,7 @@ const project=[
 ]
 
   return (
-    <div className="relative">
+    <div className="relative my-5">
       <div className="flex min-h-screen  p-3 flex-col " id="project">
       <h1 className="text-3xl text-center font-lobster md:text-5xl text-[#00b8ff] mb-10">
         MY Projects</h1>
@@ -63,7 +63,7 @@ const project=[
           },
         }}
         modules={[EffectCreative]}
-        className="w-[320px] h-[440px] p-2   shadow-[0px_1px_20px_0px_rgba(59,130,246,0.7)]"
+        className="md:w-[320px] w-[300px] h-[440px] p-2  shadow-[0px_1px_20px_0px_rgba(59,130,246,0.7)]"
       >
         {project.map((item)=>(
           <SwiperSlide key={item.id} className="flex p-3 h-full items-center space-y-2 rounded-md justify-cente backdrop-blur-md bg-white/20 border border-white/20 shaow-[0px_1px_20px_0px_rgba(59,130,246,0.7)]">

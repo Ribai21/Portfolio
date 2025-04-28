@@ -31,10 +31,10 @@ const Header = () => {
       {/* Desktop Nav */}
       <ul className="hidden md:flex me-[25%] p-2 z-40 rounded-md text-[#d6e6f2] font-semibold space-x-6 text-lg backdrop-blur-md bg-white/10 border border-white/20 shadow-lg">
         {/* <li className='transform hover:-translate-y-2 transition duration-300'><a href="#home"> Home</a></li> */}
-        <li className='transform hover:-translate-y-1 hover:text  transition duration-300'><Link to="home" smooth={true} duration={600} >Home</Link></li>
-        <li className='transform hover:-translate-y-1  transition duration-300'><Link to="about" smooth={true} duration={600} >About</Link></li>
-        <li className='transform hover:-translate-y-1  transition duration-300'><Link to="project" smooth={true} duration={600} >Project</Link></li>
-        <li className='transform hover:-translate-y-1  transition duration-300'><Link to="contact" smooth={true} duration={600} >Contact</Link></li>
+        <li className='transform hover:-translate-y-1 hover:text  transition duration-300'><Link to="home" smooth={true} duration={200} >Home</Link></li>
+        <li className='transform hover:-translate-y-1  transition duration-300'><Link to="about" smooth={true} duration={200} >About</Link></li>
+        <li className='transform hover:-translate-y-1  transition duration-300'><Link to="project" smooth={true} duration={200} >Project</Link></li>
+        <li className='transform hover:-translate-y-1  transition duration-300'><Link to="contact" smooth={true} duration={200} >Contact</Link></li>
       </ul>
 
       {/* Mobile Nav */}

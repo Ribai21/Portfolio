@@ -114,7 +114,7 @@ const Skills = () => {
   return (
     <>
       <motion.section>
-        <h1 className="text-3xl text-center font-lobster md:text-5xl text-[#00b8ff]">
+        <h1 className="text-3xl text-center font-lobster mb-4 md:text-5xl text-[#00b8ff]">
           MY Skills
         </h1>
         <div className="">

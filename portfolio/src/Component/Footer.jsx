@@ -38,7 +38,7 @@ return (
                     </a>
            
             </div>
-            <div className="w-64 h-64  bg-blue-500/20 blur-3xl absolute bottom-[30%] right-8"></div>
+            <div className="w-64 h-64  bg-blue-500/20 blur-3xl -z-20 absolute bottom-[30%] right-8"></div>
             </motion.div>
 
            

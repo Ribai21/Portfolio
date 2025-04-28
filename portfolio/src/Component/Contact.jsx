@@ -13,14 +13,12 @@ const Contact = () => {
   })
   const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-
+  const sendEmail = () => {
     emailjs.sendForm(
-      'service_kn9ogpe', // from EmailJS
-      'template_zcmjgy6', // from EmailJS
+      'service_kn9ogpe',
+      'template_zcmjgy6',
       form.current,
-      '_hXO2TuQIMP_SoDvc' // from EmailJS (public key)
+      '_hXO2TuQIMP_SoDvc'
     )
     .then((result) => {
       console.log(result.text);
@@ -30,7 +28,7 @@ const Contact = () => {
       alert('An error occurred. Please try again.');
     });
   };
-
+  
   return (
     <motion.section
     id='contact'
@@ -67,16 +65,13 @@ const Contact = () => {
       alert("All fields are required!");
       return;
     }
-    sendEmail(e); // Call the sendEmail function to send the email
-    // All fields filled — proceed
+    sendEmail(); // No need to pass e
     setMessage(true);
     console.log(date);
-
-    // Reset form fields after successful submission
     setDate({ name: "", email: "", message: "" });
-
     setTimeout(() => setMessage(false), 3000);
   }}
+  
 >
   <input
     type="text"
