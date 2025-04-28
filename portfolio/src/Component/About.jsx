@@ -1,34 +1,34 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-
+import img1 from '../assets/about1.avif'
+import img2 from '../assets/about2.jpg'
 const About = () => {
   return (
     <>
       <motion.section
-      initial={{ opacity: 0, x: -100 }}
-     whileInView={{ opacity: 1, x: 0 }} 
+      initial={{ opacity: 0, scale: .8 }}
+     whileInView={{ opacity: 1, scale: 1 }} 
       transition={{ duration: 2 }} 
-      className=' w-full  my-3'>
+      className=' w-full relative   my-3'>
         <div className='about flex justify-center mx-auto md:w-[75%] items-center flex-col'>
-          <h1 className='text-3xl md:text-5xl text-center text-[#00b8ff] font-Winky'>About Me</h1>
-          <p className='indent-6 text-justify p-3 md:text-xl  text-black font-medium'>	
+          <h1 className='text-3xl md:text-5xl text-center text-[#00b8ff] font-lobster'>About Me</h1>
+          <p className='indent-6 text-justify p-3 md:text-xl  text-[#d6e6f2] font-medium'>	
           Hi! I'm a <span className='text-[#00b8ff] font-bold'>MERN Stack Developer</span> and MCA graduate with a strong foundation in full-stack web development. As a fresher, I've built several personal and academic projects using 
           <span className='font-bold text-[#00b8ff]'> MySql, Express.js, React.js, and Node.js.</span> 
           I'm passionate about learning, building user-friendly applications, and continuously improving my skills to grow as a professional developer.
           I thrive in collaborative environments and enjoy tackling challenges. I'm excited to contribute my skills and creativity to innovative projects that make a difference.</p>
         </div>
+        <div className="w-56 h-56  bg-blue-500/20 blur-3xl absolute top-5 left-[6%]"></div>
   </motion.section>
-  <motion.section
-  initial={{ opacity: 0, x: 100 }}
-  whileInView={{ opacity: 1, x: 0 }}
-  transition={{ duration: 2 }}
-  className=' w-full my-3'>
-   <h1 className='text-3xl text-center font-Winky md:text-5xl text-[#00b8ff]'>MY Skills</h1>
+
+  {/* skils */}
+  
    {/* skillicon */}
-   <div className="">
-    {/* child */}
-        <div className="grid grid-cols-2 md:grid-cols-4 w-[75%] mx-auto gap-7 p-5 md:p-10"> 
-            <div className="flex flex-col items-center justify-center space-y-2">
+   
+   
+   {/* <div className="">
+        <div className="grid grid-cols-2 md:grid-cols-4  w-[75%] mx-auto gap-7  md:p-10"> 
+        <div className="flex backdrop-blur-md bg-white/10 border border-white/20 p-1 flex-col items-center justify-center space-y-2 hover:scale-105 shadow-[0px_1px_5px_0px_rgba(59,130,246,0.7)]">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" className="w-16 h-16" />
             <div className="font-bold">HTML5</div>
             </div>
@@ -95,9 +95,9 @@ const About = () => {
             </div>
             
         </div>
-   </div>
+   </div> */}
 
-  </motion.section>
+  
     </>
   )
 }

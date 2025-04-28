@@ -35,6 +35,16 @@ export default {
                     transform: 'scale(1)',
                   },
                 },
+                ping:{
+                  '0%': {
+                    transform: 'scale(0.4)',
+                    opacity: 1,
+                  },
+                  '100%': {
+                    transform: 'scale(0.3)',
+                    opacity: 0,
+                  },
+                }
               
     },},
     animation: {
@@ -42,12 +52,15 @@ export default {
       ripple: 'ripple 2s ease-in-out infinite',
       spinner: 'spinner 10s linear infinite',
       pulse: 'pulse 3s ease-in-out infinite',
+      ping: 'ping 5s ease-in-out infinite',
     },
     fontFamily:{
       stix:[ "STIX Two Text", "serif"],
       knewave:["Knewave"],
       Winky:["Winky Rough", "sans-serif"],
-      lato:["Lato", "sans-serif"]
+      lato:["Lato", "sans-serif"],
+      lobster:["Lobster", "sans-serif"],
+      charm: ["Charm", "cursive"]
 
     }
   },
