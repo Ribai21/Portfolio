@@ -72,7 +72,7 @@ const HeroSection = () => {
         </div>
         <button>
           <a
-            href="/fullstack_developer.pdf"
+            href="/ribaifullstack.pdf"
             download
             className="bg-[#38BDF8] hover:bg-transparent px-5 rounded-xl font-medium transition duration-200 border border-[#38BDF8] text-white hover:text-[#38BDF8] text-lg py-2"
           >

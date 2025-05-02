@@ -11,12 +11,6 @@ const App = () => {
       setIsVisible(false);
     }
   };
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth', // Smooth scroll
-    });
-  };
   useEffect(() => {
     window.addEventListener('scroll', toggleVisibility);
 
@@ -28,10 +22,10 @@ const App = () => {
  
       <div className="overflow-x-hidden">
         <Home />
-       {isVisible && <div onClick={scrollToTop} className="fixed bg-[#00b8ff] flex justify-center items-center text-white z-50 rounded-full p-2 bottom-4 right-5 cursor-pointer hover:scale-110 transition-transform duration-300">
+       <div  className={`fixed bg-[#00b8ff]  flex justify-center items-center text-white z-50 rounded-full p-2 bottom-4 right-5 cursor-pointer hover:scale-110 ${isVisible ? 'scale-100' : 'scale-0'}   transition-transform duration-500`}>
         <a href='#' className="absolute inline-flex h-full w-full rounded-full border  border-[#00b8ff] opacity-75 animate-ping"></a>
           <BiUpArrowAlt size={27}/>
-        </div>}
+        </div>
         
 
       </div>

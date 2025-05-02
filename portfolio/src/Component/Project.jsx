@@ -15,11 +15,11 @@ const project=[
     description:
       "A full-stack MERN application that allows admins to efficiently manage their gym operations. Built with MySQL, Express, React, and Node.js, and styled using Tailwind CSS for a modern and responsive design.",
     image: alpharena,
-    demoLink: "https://ribaiportfolio.vercel.app/",
+    demoLink: "https://saralnu.vercel.app/",
   },
   {
     id: 2,
-    title: "todo list",
+    title: "Todo list",
     description:
       "A simple todo list application built with React and Tailwind CSS. Users can add, edit, and delete tasks, making it easy to manage their daily activities.",
     image: todo,
@@ -27,11 +27,11 @@ const project=[
   },
   {
     id: 3,
-    title: "website for Restruant",
+    title: "Website for Restruant",
     description:
         "A responsive website for a restaurant, showcasing its menu, ambiance, and services. Built with HTML, CSS, and JavaScript, ensuring a seamless user experience across devices.",
     image: rest,
-    demoLink: "#",
+    demoLink: "https://saral-nu.vercel.app/",
   },
   {
     id: 4,

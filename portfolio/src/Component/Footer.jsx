@@ -24,7 +24,7 @@ return (
                     <a href="https://github.com/Ribai21" target="_blank" rel="noopener noreferrer" className="transform hover:scale-125  transition duration-300">
                            <FaGithub size={25}/>
                     </a>
-                    <a href="https://www.linkedin.com/in/ribai-a-9640https://www.linkedin.com/in/ribai-a-96403a2b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer"className="transform hover:scale-125  transition duration-300">
+                    <a href="https://www.linkedin.com/in/ribai-a-96403a2b6" target="_blank" rel="noopener noreferrer"className="transform hover:scale-125  transition duration-300">
                             <FaLinkedin size={25}/>
                     </a>
                     <a href="https://www.instagram.com/__r_ib_ai._" target="_blank" rel="noopener noreferrer" className="transform hover:scale-125  transition duration-300">
