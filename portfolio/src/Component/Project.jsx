@@ -4,7 +4,7 @@ import alpharena from "../assets/alphaarena.png";
 import todo from "../assets/todo.png";
 import rest from "../assets/rest.png";
 import zoom from "../assets/zoom.png";
-import sunscrew from "../assets/sunscrew.png"
+import sunscrew from "../assets/sun.png"
 import "swiper/css";
 import "swiper/css/effect-creative";
 
