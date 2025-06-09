@@ -20,3 +20,7 @@ html {
 ::-webkit-scrollbar{
    display: none;
 }
+::selection{
+  background: #00aeff;
+  color: #0F172A;
+}

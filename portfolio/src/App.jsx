@@ -1,9 +1,11 @@
 import React,{useEffect,useState} from 'react'
 import Home from './Component/Home/Home'
 import { BiUpArrowAlt } from "react-icons/bi";
+import { HashLoader } from "react-spinners";
 
 const App = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const [loading, setLoading] = useState(true);
   const toggleVisibility = () => {
     if (window.scrollY > 100) { 
       setIsVisible(true);
@@ -12,12 +14,27 @@ const App = () => {
     }
   };
   useEffect(() => {
+    const timer =setTimeout(() => {
+      setLoading(false)
+    }, 3000);
+
     window.addEventListener('scroll', toggleVisibility);
 
     return () => {
       window.removeEventListener('scroll', toggleVisibility);
+      clearTimeout(timer);
     };
   }, []);
+  if(loading){
+    return (
+      <div className="flex items-center justify-center h-screen bg-opacity-5 bg-[#0c3747]">
+       {/* <Atom color="#32cd32" size="medium" text="" textColor="" /> */}
+       <HashLoader color='#00aeff'/>
+       
+       
+      </div>
+    );
+  }
   return (
  
       <div className="overflow-x-hidden">

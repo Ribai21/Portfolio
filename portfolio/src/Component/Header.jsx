@@ -13,7 +13,6 @@ const Header = () => {
     
     initial={{ opacity: 0, y: -50 }}
     whileInView={{ opacity: 1, y: 0 }}
-    // exit={{ opacity: 0, y: -50 }}
     transition={{ duration: 1.8 }}
     className='w-full flex sticky top-0 z-50 justify-between items-center p-7  text-white '>
       {/* <h1 className='text-3xl md:text-5xl text-black hover:text-[#00b8ff] ms-20 font-Winky'>Ribai</h1> */}
@@ -39,13 +38,13 @@ const Header = () => {
 
       {/* Mobile Nav */}
       {menuOpen && (
-  <motion.ul
-  initial={{ opacity: 0, y: -100, scale: 0.8 }}
-  animate={{ opacity: 1,y:0, scale: 1 }}
-  transition={{ duration: 0.4 }}
-  className='absolute text-[#F1F5F9] top-full right-[5%] w-[90%] bg-[#00719c] font-semibold flex flex-col items-center gap-4 py-6 md:hidden z-50
-    border-2 border-blue-900 rounded-md'
->
+        <motion.ul
+        initial={{ opacity: 0, y: -100, scale: 0.8 }}
+        animate={{ opacity: 1,y:0, scale: 1 }}
+        transition={{ duration: 0.4 }}
+        className='absolute text-[#F1F5F9]  top-full right-[5%] w-[90%] bg-[#00719c] font-semibold flex flex-col items-center gap-4 py-6 md:hidden z-50
+        border-2 border-blue-900 rounded-md'
+        >
   {/* Menu Items */}
   <li className='border-b-2 border-transparent hover:border-black transition duration-300'>
     <Link to="home" smooth={true} duration={200} onClick={()=>setMenuOpen(false)}>Home</Link>
