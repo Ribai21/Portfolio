@@ -20,12 +20,13 @@ const project=[
   },
   {
     id: 2,
-    title: "Todo list",
+    title: "SUN Screws Company Website",
     description:
-      "A simple todo list application built with React and Tailwind CSS. Users can add, edit, and delete tasks, making it easy to manage their daily activities.",
-    image: todo,
-    demoLink: "#",
-  },
+      "Developed a professional, fully responsive website for SUN Screws to showcase their product line and corporate information. Implemented a dynamic product showcase with interactive UI and product detail cards.",
+    image: sunscrew,
+    demoLink: "https://sunscrew.vercel.app",
+  }
+  ,
   {
     id: 3,
     title: "Website for Restruant",
@@ -44,12 +45,13 @@ const project=[
   },
   {
     id: 5,
-    title: "SUN Screws Company Website",
+    title: "Todo list",
     description:
-      "Developed a professional, fully responsive website for SUN Screws to showcase their product line and corporate information. Implemented a dynamic product showcase with interactive UI and product detail cards.",
-    image: sunscrew,
-    demoLink: "https://sunscrew.vercel.app",
-  }
+      "A simple todo list application built with React and Tailwind CSS. Users can add, edit, and delete tasks, making it easy to manage their daily activities.",
+    image: todo,
+    demoLink: "#",
+  },
+  
   
 ]
 
