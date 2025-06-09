@@ -4,7 +4,7 @@ import alpharena from "../assets/alphaarena.png";
 import todo from "../assets/todo.png";
 import rest from "../assets/rest.png";
 import zoom from "../assets/zoom.png";
-import sunscrew from "../assets/sun.png"
+import screw from "../assets/sun.png"
 import "swiper/css";
 import "swiper/css/effect-creative";
 
@@ -23,7 +23,7 @@ const project=[
     title: "SUN Screws Company Website",
     description:
       "Developed a professional, fully responsive website for SUN Screws to showcase their product line and corporate information. Implemented a dynamic product showcase with interactive UI and product detail cards.",
-    image: sunscrew,
+    image: screw,
     demoLink: "https://sunscrew.vercel.app",
   }
   ,
