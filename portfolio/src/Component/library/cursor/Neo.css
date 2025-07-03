@@ -1,0 +1,42 @@
+.neon-cursor-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 9999;
+
+  }
+  
+  .cursor-main {
+    position: absolute;
+    width:15px;
+    height: 15px;
+    background-color: #00e5ff;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+  }
+  
+  .cursor-trail {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    border: 2.5px dotted #00e5ff;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    
+  }
+  
+  .cursor-glow {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #00e5ff;
+    border-radius: 50%;
+    filter: blur(13px);
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+  }

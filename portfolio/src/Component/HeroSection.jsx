@@ -28,7 +28,7 @@ const HeroSection = () => {
           I'm a{" "}
           <span className="text-black">
             <RotatingText
-              texts={["Developer.", "Fresher.", "Coder."]}
+              texts={["Developer.", "Fresher.", "Designer.","Feelancer."]}
               mainClassName="px-2 sm:px-2 ms-2 md:px-2 font-charm  text-[#d6e6f2] overflow-hidden py-0.4 sm:py-1 md:py-1 justify-center rounded-lg"
               staggerFrom={"last"}
               initial={{ y: "100%" }}

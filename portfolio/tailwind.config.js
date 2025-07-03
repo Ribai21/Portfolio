@@ -1,3 +1,5 @@
+import { transform } from 'framer-motion';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -44,6 +46,28 @@ export default {
                     transform: 'scale(0.2)',
                     opacity: 0,
                   },
+                },
+                open:{
+                  '0%': {
+                    transform: 'scale(0.8) ',
+                    opacity:0.5,
+                  },
+                  '30%': {
+                    transform: 'scale(1.2)',
+                    opacity: 0.5,
+                  },
+                  '60%': {
+                    transform: 'scale(0.8)',
+                    opacity: 0.8,
+                  },
+                  '80%':{
+                    transform: 'scale(1.05)',
+                    opacity: 0.9,
+                  },
+                  '100%': {
+                    transform: 'scale(113)',
+                    opacity: 0.8,
+                  },
                 }
                 
     },},
@@ -52,7 +76,8 @@ export default {
       ripple: 'ripple 2s ease-in-out infinite',
       spinner: 'spinner 10s linear infinite',
       pulse: 'pulse 3s ease-in-out infinite',
-      ping: 'ping 4s ease-in-out infinite'
+      ping: 'ping 4s ease-in-out infinite',
+      open: 'open 5s ease-in-out forwards'
      
     },
     fontFamily:{

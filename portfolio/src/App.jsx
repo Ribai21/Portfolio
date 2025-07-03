@@ -2,7 +2,8 @@ import React,{useEffect,useState} from 'react'
 import Home from './Component/Home/Home'
 import { BiUpArrowAlt } from "react-icons/bi";
 import { HashLoader } from "react-spinners";
-
+import Neo from './Component/library/cursor/Neo';
+// import LetterGlitch from './Component/library/LetterGlitch';
 const App = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [loading, setLoading] = useState(true);
@@ -29,7 +30,8 @@ const App = () => {
     return (
       <div className="flex items-center justify-center h-screen bg-opacity-5 bg-[#0c3747]">
        {/* <Atom color="#32cd32" size="medium" text="" textColor="" /> */}
-       <HashLoader color='#00aeff'/>
+       <HashLoader color='#00aeff' className='animate-pulse'/>
+       {/* <div className="h-32 bg-[#00b8ff] w-32 animate-open rounded-full "></div> */}
        
        
       </div>
@@ -44,7 +46,7 @@ const App = () => {
           <BiUpArrowAlt size={27}/>
         </div>
         
-
+        <Neo/>
       </div>
     
   )

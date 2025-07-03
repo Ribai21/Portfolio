@@ -78,7 +78,7 @@ const project=[
         {project.map((item)=>(
           <SwiperSlide key={item.id} className="flex p-3 h-full items-center space-y-2 rounded-md justify-cente backdrop-blur-md bg-white/20 border border-white/20 shaow-[0px_1px_20px_0px_rgba(59,130,246,0.7)]">
           <img src={item.image} alt="" />
-          <h1 className="text-xl font-semibold text-[#00b8ff]">{item.title}</h1>
+          <h1 className="text-xl font-semibold whitespace-nowrap text-[#00b8ff]">{item.title}</h1>
          <p className=" flex text-justify text-[#F1F5F9]">{item.description}</p>
           <a  href={item.demoLink} target="_blank" >
           <button className="mx-auto flex bg-[#38BDF8] mt-3 hover:bg-transparent px-5 rounded-xl font-medium transition duration-200 border border-[#38BDF8] text-white hover:text-[#38BDF8] text-lg py-2">View Demo</button>

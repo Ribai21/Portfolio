@@ -5,7 +5,7 @@ const Skills = () => {
     {
       name: "HTML5",
       img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-      color: "linear-gradient(hsl(123, 90%, 40%), hsl(108, 90%, 40%))",
+      // color: "linear-gradient(hsl(123, 90%, 40%), hsl(108, 90%, 40%))",
       color: "orange",
     },
     {
